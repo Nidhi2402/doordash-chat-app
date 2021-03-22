@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
 /dist
-
+uild
+package-lock.json
 
 # local env files
 .env.local

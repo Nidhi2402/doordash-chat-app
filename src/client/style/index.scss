@@ -1,0 +1,84 @@
+@import "components/message-section";
+
+.username-login {
+padding-left: 20px;
+}
+
+.primary-color {
+    background-color: #ff1840;
+}
+
+.left-panel {
+    position: fixed;
+    width: 100%;
+}
+
+.chat-rooms {
+    padding-top: 20px;
+    list-style-type: none;
+    padding-left: 0;
+    .active {
+        background-color: #800e21;
+    }
+}
+
+.room-details {
+    box-shadow: 0px 5px 10px #b5b5b5;
+    background-color: white;
+    height: auto;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    .active {
+        color: #ff2547;
+    }
+}
+
+.list-none {
+    list-style-type: none;
+    margin-top: 10%;
+}
+.chat-bg-color {
+    background-color: #eef1f2;
+}
+
+.room-tab-container {
+    padding: 10px 0px 10px 20px;
+}
+.send-button {
+    color: #4c90e2;
+    border: none;
+    background-color: white;
+    padding-left: 25px;
+    font-weight: 500;
+}
+
+
+.login-info {
+    height: 10em;
+    form {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        input {
+            height: 48px;
+            width: 480px;
+            border-color: #b5b5b5;
+            border-radius: 3px;
+            border-width: 1px;
+        }
+    }
+    .join-door-dash{
+        display: block;
+        margin-top: 24px;
+        height: 48px;
+        color: #fff;
+        background-color: #ff1840;
+        border: none;
+        border-radius: 3px;
+        width: 100%;
+    }
+}
